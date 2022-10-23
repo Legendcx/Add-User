@@ -1,18 +1,19 @@
-# Project : Template
+# Project : Random User App
 
-## Check The Live Website ➡️ [Live Website](https://skycooper.github.io)
-
-## Visualization of the Website
-
-![Form](./gallery.gif)
+## Check The Live Website ➡️ [Live Website](https://legendcxaddusers.netlify.app/)
 
 ## Description
 
-Project aims to create an image gallery app using React.
+Project aims to create a Random User App using ReactJS.
+
+## Visualization of the Website
+
+![Form](./legendcxRandomUsers.gif)
+
 
 ## Learning Outcomes
 
-At the end of the project, you will be able to;
+At the end of the project, I will be able to;
 
 - improve coding skills within HTML & CSS & JS & ReactJS.
 
@@ -20,27 +21,30 @@ At the end of the project, you will be able to;
 
 ## Problem Statement
 
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+- I am adding a new project to my portfolios. 
 
 ## Project Skeleton
 
 ```
-Image Gellery Project(folder)
+Random User App (folder)
 |
 |----README.md
 ├── public
 │     └── index.html
 ├── src
+│    ├── assets
+│    │       └── {icons.svg}
 │    ├── components
-│    │       ├── Picture.jsx
-│    ├── pages
-│    │       ├── Homepage.jsx
-│    ├── helper
-│    │       └── data.js
-│    ├── styles
-│    │       ├── style.css
+│    │       ├── Buton.jsx
+│    │       ├── Home.jsx
+│    │       └── MyCard.jsx
+│    │
+│    │      
+│    ├── App.css
 │    ├── App.js
+│    ├── index.css
 │    ├── index.js
+│    ├── App.js
 └── package.json
 ```
 
@@ -51,22 +55,19 @@ You can see the visual representation of the website above.
 
 ## Notes
 
-- Step 1: Create React App using `npx create-react-app image-gallery`
+- Step 1: Create React App using `yarn add create-react-app addUser`
 
-- Step 2: For images you can use [Images](./src/helper/data.js).
+- Step 2: Build Random User App fetching data from using .https://randomuser.me/api/axios
 
-- Step 3: Push your application into your own public repo on Github
+- Step 3: Push my application into my own public repo on Github
 
-- Step 4: Add project gif to your project and README.md file.
+- Step 4: Add project gif to my project and README.md file.
 
-## Resources
 
-- 🔥 You can use [`data.js`](./src/helper/data.js) for your own work.
 
-## Support
-Open an Issue, I will check it a soon as possible 👀
-Don't forget to start the repo ⭐
 # <center> ⌛ Happy Coding ✍ </center>
+
+
 
 ## Getting Started with Create React App
 
